@@ -1,0 +1,109 @@
+#fundo_1{
+    background-image: url("../img/fundo home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#fundo_2{
+    background-image: url("../img/fundo marvel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#fundo_3{
+    background-image: url("../img/dc 2.jpg");  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table{
+    background-color:  #f1f1f1;
+    margin: auto;
+    width: 950px;
+}
+
+table tr td{
+    padding: 10px;
+}
+
+/*
+#header_box{
+    border-bottom: 10px solid rgb(126, 12, 12);
+}*/
+
+#nav_box{
+    height: 40px;
+    border-top: 12px solid rgb(126, 12, 12);
+    border-bottom: 2px solid rgb(126, 12, 12);
+    background-color: #7e7c7c;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+}
+#nav_box ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav_box li{
+    float: left;
+}
+
+#nav_box a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#nav_box li a:hover:not(.active){
+    background-color: rgb(126, 12, 12);
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.active{
+    background-color: rgb(126, 12, 12);
+    color: white;
+}
+
+.article_box{
+    padding: 10px;
+}
+
+.article_box p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.article_box h2, h1, h3{
+    border-top: 10px solid rgb(126, 12, 12);
+    background-color: #7e7c7c;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#image_box img{
+    width: 100%;
+}
+
+#image_box{
+    width: 500px;
+}
+
+#footer_box{
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    background-color: #7e7c7c;
+    border-top: 10px solid rgb(126, 12, 12);
+    font-size: 20px;
+}
